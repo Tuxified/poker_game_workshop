@@ -12,7 +12,10 @@ What's next?
 Type `mix workshop.next` in the terminal to start the workshop, and
 have fun!
 
-Help etc
+
+
+
+Tips
 ------------
 Elixir has a REPL which is started with the command `iex`.
 From IEx you can access several helper functions:
@@ -27,3 +30,5 @@ autocompletion so `Enum.<TAB>` will list all public Enum functions.
 
 `c "<file.ex>"` will compile and (re)load that module into IEx session
 so you can try it out. Just typing a function definition won't suffice, since there's no global Module to which the function will be added.
+
+Function definition is Elixir is `def function_name do ..etc`. As a Rubyist you're probably forget `do` after the functions arguments resulting in a syntax error like `unexpected token: end`.
